@@ -1,0 +1,26 @@
+# Bank Heist Config
+arena:
+  world: "world"
+  start:
+    x: -129.631
+    y: 92.0
+    z: 94.775
+  door-keycard:
+    x: -158.558
+    y: 92.0
+    z: 93.455
+  exfil:
+    x: -130.0
+    y: 92.0
+    z: 100.0  # Assumed
+
+game:
+  guards-per-player: 15
+  juggernaut-armor: true
+  police-guard-type: "ZOMBIE"  # Or VINDICATOR
+  keycard-item: "TRIPWIRE_HOOK"
+  money-per-bag: 1000
+  payout-base: 50000  # Per player adjusted by split
+
+# Waves etc.
+
